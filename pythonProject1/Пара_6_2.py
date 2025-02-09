@@ -1,6 +1,7 @@
 ch1 = float(input("Ведіть перше число"))
 ch2= float(input("Ведіть друге число"))
 
+
 try:
     result = ch1/ch2
     print(result)
