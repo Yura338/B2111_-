@@ -87,7 +87,7 @@ class Human:
         print(f"Today is {day} of {self.name} life")
         print(f"Money - {self.money}\nGladness - {self.gladness}\nSatiety - {self.satiety}")
         print(f"Home\nFood - {self.home.food}\nMess - {self.home.mess}")
-        print(f"Car\nFuel - {self.car.fuel}\nStrength - {self.car.strenght}")
+        print(f"Car\nFuel - {self.car.fuel}\nStrength - {self.car.strength}")
 
     def is_alive(self):
         if self.gladness < 0:
